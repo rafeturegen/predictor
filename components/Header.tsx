@@ -7,12 +7,12 @@ export default function Header() {
   return (
     <header>
         <div className='max-w-7xl mx-auto flex items-center justify-between py-3 px-6'>
-            <div className='flex items-center'>
+            <div className='flex items-center gap-1'>
                 <Image
                 src={logo}
                 alt='stock predictor logo'
-                height={96}
-                width={96}
+                height={64}
+                width={64}
                 className='rounded-lg'
                 />
                 <div className='font-bold text-xl tracking-tight'>Predictor</div>
